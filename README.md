@@ -1,7 +1,7 @@
 # Static Hand Gesture Datasets
 
 # ASL dataset
-All the RGB images are moved into the same folder, you can download the dataset directly from the author [here](http://empslocal.ex.ac.uk/people/staff/np331/index.php?section=FingerSpellingDataset).
+All the RGB images have been moved into the same folder, you can download the dataset directly from the author [here](http://empslocal.ex.ac.uk/people/staff/np331/index.php?section=FingerSpellingDataset).
 All RGB images in this dataset are resized into 28x28, running Read_and_divide_data_GrayScale.m (in Matlab, alternatively you can use Octave) will convert the RGB images into grayscale, and extract the label from image's file name, and subsequently generate the dataset with 50% of the images in training set, and the remaning 50% in testing set. The dataset is randomly shuffled and saved as GesTrainSubset, GesTestSubset.m (label encoding), and GesTrainSubset1, GesTestSubset1.m (one-hot encoding).
 
 # ASL with digits
