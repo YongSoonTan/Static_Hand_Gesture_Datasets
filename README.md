@@ -37,4 +37,37 @@ if you find this code useful for your research, please consider citing (citation
       publisher={Elsevier}
     }
     
-If you use any of the datasets, please cite their respective paper.
+If you use any of the datasets, please cite their papers accordingly.
+
+For ASL dataset
+
+    @inproceedings{pugeault2011spelling,
+      title={Spelling it out: Real-time ASL fingerspelling recognition},
+      author={Pugeault, Nicolas and Bowden, Richard},
+      booktitle={2011 IEEE International conference on computer vision workshops (ICCV workshops)},
+      pages={1114--1119},
+      year={2011},
+      organization={IEEE}
+    }
+    
+For ASL with digits
+
+    @article{barczak2011new,
+      title={A new 2D static hand gesture colour image dataset for ASL gestures},
+      author={Barczak, ALC and Reyes, NH and Abastillas, M and Piccio, A and Susnjak, T},
+      year={2011},
+      publisher={Massey University}
+    }
+    
+For NUS hand gesture 
+
+    @article{pisharady2013attention,
+      title={Attention based detection and recognition of hand postures against complex backgrounds},
+      author={Pisharady, Pramod Kumar and Vadakkepat, Prahlad and Loh, Ai Poh},
+      journal={International Journal of Computer Vision},
+      volume={101},
+      number={3},
+      pages={403--419},
+      year={2013},
+      publisher={Springer}
+    }
